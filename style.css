@@ -1,0 +1,104 @@
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* BANNER SECTION */
+h1{
+	color: white;
+	margin: 0px;
+	font-family: 'Chivo';
+	font-size: 45px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Overpass';
+	font-size: 24px;
+	opacity: 0.7;
+}
+
+a {
+	color: white;
+	font-family: Overpass;
+    font-size: 18px;
+    margin: 0;
+}
+
+.banner {
+	text-align: center;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+}
+
+.button-blue {
+	background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+/* MIDDLE SECTION */
+.middle {
+	width: 900px;
+	margin: 60px auto;
+}
+
+h3 {
+	font-family: 'Chivo';
+	font-size: 27px;
+}
+
+h4 {
+	font-family: 'Chivo';
+	font-size: 21px;
+	margin-bottom: 0;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.cards img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card1,.card2,.card3 {
+	background: white;
+	padding: 24px;
+	margin: 8px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	flex-grow: 1;
+}
+
+/* FOOTER SECTION */
+.footer {
+  background: #404042;
+  color: white;
+  padding: 10px 0px;
+}
+
+.footer p {
+	width: 900px;
+	margin: 60px auto;
+}
